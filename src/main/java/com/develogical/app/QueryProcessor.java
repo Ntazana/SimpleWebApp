@@ -2,10 +2,10 @@ package com.develogical.app;
 
 public class QueryProcessor {
     public String process(String query) {
-        if (query.toLowerCase().contains("shakespeare")) {
-            return "William Shakespeare (26 April 1564 - 23 April 1616) was an " +
-                    "English poet, playwright, and actor, widely regarded as the greatest " +
-                    "writer in the English language and the world's pre-eminent dramatist.";
+        if (query.toLowerCase().contains("ntazana")) {
+            return "Ntazana is a tech start-up enterprenure and an avid AI advocate" +
+                    "He graduated from Oxford in 2020ans setup Altum technica, Africa's largest tech company " +
+                    "In 2022, Altum Technica was listed on the New York stock exchange, making it the only second African start up to feature.";
         }
         return "";
     }
